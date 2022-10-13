@@ -7,7 +7,7 @@ class Contract{ //class => 객체를 만드는 껍데기
 		this.name = name; //this.name => class안의 지역 변수 this.name = name (Contract 함수의 매개변수)
 		this.phone = phone;
 	}
-	void Contract() {
+	void Contract() { //입력항목(ex 매개변수)이 다른 경우 동일한 이름의 메소드를 만들 수 있는데 이를 메소드 오버로딩(method overloading)
 		System.out.println("이것이 오버로딩");
 	}
 	void printContract() { //print 함수
