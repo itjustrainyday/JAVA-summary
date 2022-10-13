@@ -1,6 +1,8 @@
 package test;
 
 class Contract{ //class => 객체를 만드는 껍데기
+	//class 안 필드의 접근 지정자
+	//public : 모든 클래스로부터 접근가능, private : 클래스 내부에서만 접근이 가능
 	String name; //객체 변수
 	String phone;
 	void Contract(String name,String phone){ // contract 함수 => 자바에선 메소드라고 함 //String name, String phone은 매개변수
